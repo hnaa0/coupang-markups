@@ -1,0 +1,271 @@
+@import url("/stylesheets/common/base.css");
+@import url("/stylesheets/common/normalize.css");
+@import url("/stylesheets/common/theme.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-area h1 {
+  width: 1020px;
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+
+.categoryBest-main-area {
+  width: 1020px;
+  padding-bottom: 14px;
+}
+
+.categoryBest-title-group {
+  margin-bottom: 24px;
+}
+
+.categoryBest-block {
+  display: flex;
+  width: 1020px;
+  height: 634px;
+  background-color: var(--color-white);
+}
+
+.categoryBest-houseware {
+  margin-bottom: 24px;
+  border-top: 1.17px solid var(--color-brown-300);
+  border-bottom: 1.17px solid var(--color-brown-300);
+}
+
+.categoryBest-kitchenware {
+  border-top: 1.17px solid var(--color-green-700);
+  border-bottom: 1.17px solid var(--color-green-700);
+}
+
+.block-info-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 174px;
+  height: 100%;
+  background-color: var(--color-white);
+}
+
+.block-title-group {
+  margin-top: 48px;
+  margin-left: 24px;
+}
+
+.info-title {
+  margin: 0 0 8px;
+}
+
+.categoryBest-houseware .info-title {
+  color: var(--color-brown-300);
+}
+
+.categoryBest-kitchenware .info-title {
+  color: var(--color-green-700);
+}
+
+.go-link {
+  display: flex;
+  align-items: center;
+}
+
+.go-link a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--color-gray-700);
+  margin-right: 4px;
+}
+
+.ico-arrow {
+  width: 6px;
+  height: 10px;
+  background-image: url("../../assets/icons/angle-right-default.svg");
+}
+
+.block-keywords {
+  margin: 0 33px 16px 24px;
+}
+
+.keywords-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 115%;
+  margin: 0 0 20px;
+}
+
+.keywords-list {
+  display: flex;
+  width: 117px;
+  flex-direction: column;
+}
+
+.keyword {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 120%;
+  padding: 6px 10px;
+  border: 1px solid var(--color-gray-400);
+  padding: 6px 10px;
+  margin-bottom: 12px;
+}
+
+.keyword-house {
+  color: var(--color-brown-300);
+}
+
+.keyword-kitchen {
+  color: var(--color-green-700);
+}
+
+.block-banner-area {
+  position: relative;
+  width: 320px;
+  height: 100%;
+}
+
+.display-none {
+  display: none;
+}
+
+.banner-desc-box {
+  position: absolute;
+  bottom: 58px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 90px;
+  line-height: 120%;
+  color: var(--color-white);
+}
+
+.categoryBest-houseware .banner-desc-box {
+  background-color: var(--color-brown-300);
+}
+
+.categoryBest-kitchenware .banner-desc-box {
+  background-color: var(--color-green-700);
+}
+
+.desc-main {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.desc-sub {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.indicator-btns {
+  position: absolute;
+  left: 144px;
+  bottom: 22px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.indicator-btns .active {
+  margin-right: 8px;
+  background-color: var(--color-gray-700);
+}
+
+.indicator-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  list-style: none;
+  background-color: var(--color-gray-600);
+}
+
+.block-item-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 526px;
+  height: 100%;
+  background-color: lightcyan;
+}
+
+.categoryBest-item-list {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: var(--color-white);
+}
+
+.categoryBest-item-list::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  bottom: 0;
+  background-color: var(--color-gray-600);
+}
+
+.categoryBest-item {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+  height: 300px;
+  background-color: var(--color-white);
+}
+
+.categoryBest-item:nth-child(2) {
+  margin: 0 16px;
+}
+
+.item-img {
+  margin: 9px 0 12px 0;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 4px;
+}
+
+.item-title {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 120%;
+  margin-bottom: 12px;
+}
+
+.item-price-box {
+  display: flex;
+  align-items: center;
+  height: 27px;
+  font-size: 14px;
+}
+
+.item-discount {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--color-red-500);
+  margin-bottom: 4px;
+}
+
+.item-price-box strong {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.item-price-box .badge-rocket {
+  height: 14px;
+  margin-left: 6px;
+}

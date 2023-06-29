@@ -1,0 +1,146 @@
+@import url("/stylesheets/common/base.css");
+@import url("/stylesheets/common/normalize.css");
+@import url("/stylesheets/common/theme.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-area h1 {
+  width: 1020px;
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+
+.company-logo {
+  width: 176px;
+  height: 40px;
+}
+
+.offer-main-area {
+  width: 1020px;
+}
+
+.offer-title-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  height: 30px;
+}
+
+.ico-shopping {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/shopping.svg");
+}
+
+.offer-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 115%;
+}
+
+.offer-item-list {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.offer-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 270px;
+}
+
+.offer-item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.offer-item-img {
+  width: 160px;
+  height: 160px;
+  margin: 14px 0 12px;
+}
+
+.item-discount {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 53px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  border-bottom-right-radius: 4px;
+  color: var(--color-white);
+  background-color: var(--color-red-500);
+}
+
+.item-info-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 172px;
+  height: 17px;
+  font-size: 14px;
+}
+
+.item-name {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 12px;
+  line-height: 120%;
+}
+
+.delivery-type {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.type-free {
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--color-gray-700);
+}
+
+.ico-badge-rocket {
+  width: 55px;
+  height: 16px;
+}
+
+.item-rating-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.item-rating-star {
+  width: 68px;
+  height: 12px;
+  line-height: 120%;
+  margin-right: 4px;
+  background-image: url("../../assets/sprites/rating-stars.png");
+}
+
+.star-4half {
+  background-position-y: 26px;
+}
+
+.star-4 {
+  background-position-y: 40px;
+}
+
+.star-5 {
+  background-position-y: 12px;
+}
+
+.num-of-review {
+  color: var(--color-gray-700);
+}
