@@ -1,6 +1,6 @@
-@import url("/stylesheets/common/base.css");
-@import url("/stylesheets/common/normalize.css");
-@import url("/stylesheets/common/theme.css");
+@import url("../common/base.css");
+@import url("../common/normalize.css");
+@import url("../common/theme.css");
 
 .header-area h1 {
   width: 1020px;
